@@ -7,7 +7,7 @@ Avoir une connaissance théorique et pratique en bioinformatique
 pour interpreter les données de la génomique.
 
 
-# Théorique:
+# Théorique:
 Comprendre les notions de base : 
 - En mathématique & statistique : 
     + Algèbre linéaire
@@ -48,7 +48,7 @@ Comprendre les notions de base :
                 + Puce à ADN
                 + PacBio / NanoPore 
         
-# Pratique 
+# Pratique 
 - Outils Bash  
     + Allignement: bwa, bowite2, samtools 
     + Variant calling: Freebayes, Gatk
