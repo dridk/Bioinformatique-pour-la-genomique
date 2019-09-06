@@ -1,6 +1,6 @@
 
 
-# Plan 
+# Idée 
 
 Objective: 
 Avoir une connaissance théorique et pratique en bioinformatique 
@@ -69,4 +69,39 @@ Comprendre les notions de base :
     + ACMG
 
 
+# Plan 
+
+- Préface 
+- L'ADN de l'information numérique 
+    + C'est quoi l'ADN
+        * biologie / cellule / noyaux/ chromosomes / ADN 
+        * Structure des gènes / transcription / Contenu / epigenietique 
+    + code génétique / code ASCII 
+    + Format de fichier texte / binaire 
+    + Théorie de l'information : Entropie 
+    + Exemple cheval encoder dans l'ADN 
+- Lire l'ADN
+    + Dans le chapitre 1 comment lire ces informations? 
+    + Séquençage Sanger : format ab1
+    + NGS 
+    + Autre technologie : Singgle Cells
+    + Format de sortie : Fastq / Fasta 
+- Assemblage 
+    + Génome humain
+    + Algorithme de de bruijn 
+- Allignement 
+    + Algorithme de Burrows wheelers 
+- Variant calling
+    + Modèle Bayesien 
+    + statistique 
+    + variants 
+- Interpreration des variants 
+    + Machine learning 
+    + classification 
+    + classifcation ACMG
+    + Base de donnée 
+- Analyse multivarié 
+    + algèbre linéaire 
+    + single cells & microbiome
+    + Decomposition
 
