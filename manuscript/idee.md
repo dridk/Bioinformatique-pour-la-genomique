@@ -10,8 +10,8 @@ pour produire et comprendre des données génomiques
 - Ne pas faire d'impasse sur le théorique tout en restant simple
 - Schématiser ++
 - Préférer l'exemple à l'abstraction
-- Commencer par un concepte théorique et finir sur de la pratique
-- Tp et exercice sur github / jupyter 
+- Commencer par un concept théorique et finir sur de la pratique
+- TP et exercice sur github / jupyter 
 
 
 # Plan (en cours)
@@ -20,7 +20,7 @@ pour produire et comprendre des données génomiques
     + Rappel en biologie moléculaire
         + cellule / noyaux / chromosomes / ADN 
         + Structure des gènes / transcription / traduction 
-        + Non codant / epigénétique / regulation 
+        + Non codant / épigénétique / regulation 
         + L'évolution darwinienne comme orchestre
         + En médecine
             + Génétique constitutionnelle
@@ -31,7 +31,7 @@ pour produire et comprendre des données génomiques
             + Numérique / analogique
         + L'ADN est un support numérique comme un autre
             + Exemple; encoder une vidéo dans l'ADN 
-            + Toutes les méthodes en informatique s'applique donc à l'ADN
+            + Toutes les méthodes en informatique s'appliquent donc à l'ADN
             
 + **Lire l'ADN: Technologie de génétique moléculaire**
     + Méthode classique
@@ -43,7 +43,7 @@ pour produire et comprendre des données génomiques
             + Technique 
                 + Librairie
                     + Capture / Amplicons 
-                + Biais d'amplification / de sequençage
+                + Biais d'amplification / de séquençage
                 + Phred Score
         + Données de sortie
             + Reads
@@ -53,13 +53,13 @@ pour produire et comprendre des données génomiques
             + Nombre de reads
             + Qualité des reads
             + FastQC
-            + Savoir comparer des sequenceur 
+            + Savoir comparer des séquenceurs 
                 + HiSeq / MiSeq / MinSeq / NovaSeq
         + Stratégie de séquençage
             + Alignement sur référence
                 + Panel / Exome / Panel
             + Assemblage de novo 
-    + Autre technologie et méthodes 
+    + Autres technologies et méthodes 
         + Single Cell
         + 3ème génération
             + Nanopore / PacBio
@@ -84,7 +84,7 @@ pour produire et comprendre des données génomiques
 + **Alignement** 
     + Algorithme d'alignement
         + Smith/Waterman 
-        + Tries / Burrows wheeler alignement
+        + Tries / Burrows wheeler alignment
     + Génome de référence 
         + hg19 / hg38
         + UCSC / Ensembl
@@ -99,7 +99,7 @@ pour produire et comprendre des données génomiques
             
 + **Variant calling**
     + Inférence Bayesienne
-        + Vraissemblance des données vs Crédences des Théories
+        + Vraisemblances des données vs Crédences des Théories
         + Fréquentistes vs Bayes
             + En profiter pour critiquer la p-value
     + En pratique
@@ -112,7 +112,7 @@ pour produire et comprendre des données génomiques
 
 + **Interpreration des variants** 
     + Machine learning: 
-        + Apprentissage suppervisé
+        + Apprentissage supervisé
             + Regression 
                 + Regression linéaire
             + Classification (des variants )
@@ -131,24 +131,24 @@ pour produire et comprendre des données génomiques
         + Polymorphisme / Variant 
     + En pratique
         + SnpEff / VEP / Annovar
-        + classifcation ACMG
+        + classification ACMG
         + BAYES POWER ++
 
 + **Analyses multivariées**
     + algèbre linéaire
         + Vecteur / Matrice / Tenseur 
-        + Espace à n dimension 
+        + Espace à n dimensions 
     + Machine Learning:
         + Reduction de dimension
             + PCA / t-SNE 
-        + Classification non suppervisé 
+        + Classification non supervisée 
             + Centroid
     + En pratique
         + Single cells
         + Microbiome
 
 + **Génomique de demain**
-    + Séquençage des génome (Médecine génomique)
+    + Séquençage des génomes (Médecine génomique)
     + Technologie à venir 
         + Variant Graph (référence sous forme de graphe)
 
@@ -157,7 +157,7 @@ pour produire et comprendre des données génomiques
     + Utlisation d'un notebook jupyter 
 
 # Notions à caser
-- Maximum de vraissemblance 
+- Maximum de vraisemblance 
 - Chaine de Markov 
 - Ontologie HPO 
 - Protéomique 
