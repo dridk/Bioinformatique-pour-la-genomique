@@ -1,8 +1,6 @@
 
 
 
-# Plan (en cours)
-
 ## Objective 
 Avoir les connaissances théoriques et pratiques en bioinformatique 
 pour produire et comprendre des données génomiques
@@ -16,7 +14,7 @@ pour produire et comprendre des données génomiques
 - Tp et exercice sur github / jupyter 
 
 
-# Plan 
+# Plan (en cours)
 
 + **L'ADN: Un support d'information numérique**
     + Rappel en biologie moléculaire
@@ -78,6 +76,7 @@ pour produire et comprendre des données génomiques
         + Graphe de Debruijn 
     + Metrics d'assemblage 
         + N50 .. 
+        + Trimming, Contig, unitig
     + En pratique
         + Outils / ligne de commandes / fichiers
         + Fichier Fasta / GFA
@@ -123,6 +122,7 @@ pour produire et comprendre des données génomiques
                 + Neural Network
     + Base de données et Annotations
         + GnomAd, Clinvar, omim , FrenchExac
+        + Ontologie (HPO)
         + Score de prediction in-silico
         + Score phylogénétique
     + Mutation et nomenclature HGVS
@@ -148,9 +148,9 @@ pour produire et comprendre des données génomiques
         + Microbiome
 
 + **Génomique de demain**
-    + Séquençage des génome ( Médecine génomique)
+    + Séquençage des génome (Médecine génomique)
     + Technologie à venir 
-        + Variant Graph ( référence sous forme de graphe)
+        + Variant Graph (référence sous forme de graphe)
 
 + **Annexes** 
     + Commande de base sous Unix
@@ -159,9 +159,12 @@ pour produire et comprendre des données génomiques
 # Notions à caser
 - Maximum de vraissemblance 
 - Chaine de Markov 
-- Chromosomes: Coordonnée chromosomique / anomalie cytogénétique 
--  - Génome: Contenu du génome / Mutations / Nomenclature HGVS 
-        
+- Ontologie HPO 
+- Protéomique 
+- 
+-  Les variants structuraux dans tout ca ? 
+-  Utilisation de UCSC / Ensembl
+-  
 + Allignement: bwa, bowite2, samtools 
 + Variant calling: Freebayes, Gatk
 + Annotation: SnpEff, VEP, Annovar 
