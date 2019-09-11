@@ -16,10 +16,12 @@ pour produire et comprendre des données génomiques
 
 # Plan (en cours)
 
-+ **L'ADN: Un support d'information numérique**
++ **L'ADN comme support d'information numérique**
     + Rappel en biologie moléculaire
         + cellule / noyaux / chromosomes / ADN 
-        + Structure des gènes / transcription / traduction 
+            + Taille et composition du génome
+            + Distinguer le génome du caryotype 
+        + Structure des gènes / transcription / traduction / epissage
         + Non codant / épigénétique / regulation 
         + L'évolution darwinienne comme orchestre
         + En médecine
@@ -33,7 +35,7 @@ pour produire et comprendre des données génomiques
             + Exemple; encoder une vidéo dans l'ADN 
             + Toutes les méthodes en informatique s'appliquent donc à l'ADN
             
-+ **Lire l'ADN: Technologie de génétique moléculaire**
++ **Technologie en génétique moléculaire**
     + Méthode classique
         + PCR / Sanger 
     + Méthode de génotypage
@@ -57,7 +59,7 @@ pour produire et comprendre des données génomiques
                 + HiSeq / MiSeq / MinSeq / NovaSeq
         + Stratégie de séquençage
             + Alignement sur référence
-                + Panel / Exome / Panel
+                + Panel / Exome / Genome
             + Assemblage de novo 
     + Autres technologies et méthodes 
         + Single Cell
@@ -70,7 +72,7 @@ pour produire et comprendre des données génomiques
         + Microbiome
             
            
-+ **Assemblage**
++ **Assemblage des génomes**
     + Théorie des graphes 
         + Parcours eulerien / hamiltonien
         + Graphe de Debruijn 
@@ -81,10 +83,14 @@ pour produire et comprendre des données génomiques
         + Outils / ligne de commandes / fichiers
         + Fichier Fasta / GFA
 
-+ **Alignement** 
++ **Alignement de séquences** 
     + Algorithme d'alignement
-        + Smith/Waterman 
-        + Tries / Burrows wheeler alignment
+        + Multiple Alignement
+            + Chaine de Markov 
+        + Pairwise-alignement
+            + Algorithme Dynamique
+                + Smith/Waterman 
+            + Tries / Burrows wheeler alignment
     + Génome de référence 
         + hg19 / hg38
         + UCSC / Ensembl
@@ -97,7 +103,7 @@ pour produire et comprendre des données génomiques
                 + Différencier Panel / Capture
                 + MapQ score / Phred Score 
             
-+ **Variant calling**
++ **Détection des variants**
     + Inférence Bayesienne
         + Vraisemblances des données vs Crédences des Théories
         + Fréquentistes vs Bayes
@@ -144,7 +150,7 @@ pour produire et comprendre des données génomiques
         + Classification non supervisée 
             + Centroid
     + En pratique
-        + Single cells
+        + Single cells / RNA Seq 
         + Microbiome
 
 + **Génomique de demain**
@@ -161,10 +167,13 @@ pour produire et comprendre des données génomiques
 - Chaine de Markov 
 - Ontologie HPO 
 - Protéomique 
-- 
+- Pooper Science: On ne démontre pas , on réfute 
+- Structure du génome : Taille, composition 
 -  Les variants structuraux dans tout ca ? 
 -  Utilisation de UCSC / Ensembl
--  
+-  Mettres des anecdotes sympas ? 
+    -  Les pont de Konigsberg ? 
+    -  Probleme bayesien 
 + Allignement: bwa, bowite2, samtools 
 + Variant calling: Freebayes, Gatk
 + Annotation: SnpEff, VEP, Annovar 
@@ -179,6 +188,16 @@ pour produire et comprendre des données génomiques
     + GenomAD
     + ClinVar
     + Omim
+
+Format de fichier : 
+FASTA, Fastq, BAM/SAM , Bed , VCF 
+GFF, GTF3 , BEDGRAPH,
+
+Divers
+LogoPlot
+DotPlot
+Hi-C 
+
 
 
 
